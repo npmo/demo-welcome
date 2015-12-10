@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/npmo/demo-welcome/issues"
   },
-  "homepage": "https://github.com/npmo/demo-welcome#readme"
+  "homepage": "https://github.com/npmo/demo-welcome#readme",
+  "dependencies": {
+    "@demo/hello-string": "^0.1.0",
+    "@demo/welcome-string": "^0.1.0",
+    "chalk": "^1.1.1",
+    "unique-random-array": "^1.0.0",
+    "yargs": "^3.31.0"
+  }
 }
