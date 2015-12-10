@@ -1,0 +1,24 @@
+{
+  "name": "@demo/welcome",
+  "version": "0.1.0",
+  "description": "Sample CLI with deps for demo purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/npmo/demo-welcome.git"
+  },
+  "keywords": [
+    "demo",
+    "welcome",
+    "cli"
+  ],
+  "author": "npmo-andrew <andrew+ghdemo@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npmo/demo-welcome/issues"
+  },
+  "homepage": "https://github.com/npmo/demo-welcome#readme"
+}
