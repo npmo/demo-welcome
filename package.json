@@ -4,7 +4,8 @@
   "description": "Sample CLI with deps for demo purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "standard",
+    "test": "nyc --check-coverage --check-coverage --lines 100 mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,11 @@
     "chalk": "^1.1.1",
     "unique-random-array": "^1.0.0",
     "yargs": "^3.31.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "nyc": "^5.3.0",
+    "standard": "^5.4.1"
   }
 }
