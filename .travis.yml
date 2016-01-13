@@ -1,8 +1,5 @@
 language: node_js
 node_js:
-  - "0.10"
-  - "0.12"
   - "node"
 before_install:
-  - npm install -g npm@latest
   - printf "//54.173.231.160:8080/:_authToken=${NPM_TOKEN}\n@demo:registry=http://54.173.231.160:8080" >> ~/.npmrc
