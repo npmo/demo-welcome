@@ -5,8 +5,4 @@ function welcome (name) {
   return helloString(name) + '! ' + welcomeString()
 }
 
-welcome.goodbye = function () {
-  return 'goodbye'
-}
-
 module.exports = welcome
