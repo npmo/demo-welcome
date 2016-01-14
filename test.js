@@ -13,5 +13,6 @@ describe('welcome-string', function () {
   it('says goodbye', function () {
     var str = welcomeString.goodbye()
     str.should.match(/goodbye/)
+    throw 'brokeb'
   })
 })
