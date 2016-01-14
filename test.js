@@ -9,4 +9,10 @@ describe('welcome-string', function () {
     var str = welcomeString()
     str.should.match(/Welcome/)
   })
+
+  it('says goodbye', function () {
+    var str = welcomeString.goodbye()
+    str.should.match(/goodbye/)
+    throw 'brokeb'
+  })
 })
