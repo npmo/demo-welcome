@@ -9,4 +9,9 @@ describe('welcome-string', function () {
     var str = welcomeString()
     str.should.match(/Welcome/)
   })
+
+  it('has test for goodbye', function () {
+    var str = welcomeString.goodbye()
+    str.should.match(/goodbye/)    
+  })
 })
