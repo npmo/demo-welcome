@@ -5,7 +5,7 @@ function welcome (name) {
   return helloString(name) + '! ' + welcomeString()
 }
 
-welcome.goodbye = function {
+welcome.goodbye = function () {
   return 'goodbye'
 }
 
