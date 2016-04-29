@@ -1,6 +1,6 @@
-# Welcome to npm On-Site
+# Welcome to npm Enterprise
 
-* brief intro about InnerSource as it relates to npm On-Site.
+* brief intro about InnerSource as it relates to npm Enterprise.
 * show the admin-console:
   * talk about how there are features specific to larger companies.
 * go through an InnerSource workflow:
