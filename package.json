@@ -1,6 +1,6 @@
 {
   "name": "@demo/welcome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sample CLI with deps for demo purposes",
   "main": "index.js",
   "scripts": {
